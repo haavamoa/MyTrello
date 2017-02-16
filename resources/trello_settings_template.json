@@ -1,0 +1,10 @@
+{
+  "app_key" : <app_key_id>,
+  "token" : <read,write_token>,
+  "lists" : [
+    {<board_name> : <list_id>},
+    {<board_name> :  <list_id>},
+    {<board_name> :  <list_id>}
+  ]
+
+}

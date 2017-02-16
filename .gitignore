@@ -1,0 +1,6 @@
+__pycache__/
+
+.idea
+
+resources/__pycache__/
+resources/trello_settings.json
