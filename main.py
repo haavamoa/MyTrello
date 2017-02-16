@@ -6,6 +6,12 @@ from trello_settings import TrelloSettings
 ############
 # Arguments
 ############
+
+if len(sys.argv) != 3:
+    print("Wrong number of arguments, expected 2")
+    print("Arguments: list name, card name")
+    print("Exiting")
+    exit(0)
 list_name = sys.argv[1]
 card_name = format_cardname(arguments=sys.argv)
 
